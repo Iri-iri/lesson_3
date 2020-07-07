@@ -10,6 +10,7 @@
 }
 
 .description {
+    padding: 0 10px;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     color: #86878b;
@@ -56,15 +57,12 @@
 .wrapper {
     width: 100%;
     margin: 0 auto;
+    text-align: center;
 }
 
 .card {
     display: inline-block;
-    width: calc(90%/3);
-}
-
-.m-lr-30 {
-    margin: 0 30px;
+    width: calc((100% / 3) - 3px);
 }
 
 .awesome__header {
