@@ -54,13 +54,13 @@
 }
 
 .wrapper {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
 .card {
-    width: calc(90%/3);
     display: inline-block;
+    width: calc(90%/3);
 }
 
 .m-lr-30 {
@@ -80,10 +80,11 @@
 
 .custom__image {
     width: 100%;
-    background-image: linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url("images/u25.png");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/u25.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
 }
 
 .custom__header {
@@ -126,23 +127,24 @@ button:hover {
     background: #3714d6;
     color: black;
     cursor: pointer;
+    transition-duration: 3s;
 }
 
 footer {
     width: 100%;
     background-color: black;
     padding: 30px 0 15px 0;
+    text-align: center;
 }
 
 .contacts {
-    width: 190px;
     margin: 0 auto 10px;
 }
 
 .social {
     display: inline-block;
     width: 25px;
-    margin-right: 4px;
+    margin-right: 20px;
 }
  
 .social.rss {
@@ -156,3 +158,4 @@ footer {
     opacity: 0.5019607843137255;
     text-align: center;
 } 
+
